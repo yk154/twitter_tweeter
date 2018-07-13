@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css?family=Rubik");
+@import url("https://fonts.googleapis.com/css?family=Dosis");
+
+.tweet-all {
+  background: #fff;
+  margin: 30px;
+  margin-left: 60px;
+  font-family: "Rubik", sans-serif;
+  /* border-style: solid;
+  border-color: gainsboro; */
+  font-size: 20px;
+  padding: 10px;
+  font-family: "Dosis", sans-serif;
+  padding: 10px;
+}
+
+form {
+  padding: 10px;
+  margin-top: 4%;
+  margin-left: 10%;
+  font-family: "Dosis", sans-serif;
+}
+
+.tweet-author {
+  text-align: right;
+  margin-right: 20px;
+  font-family: "Dosis", sans-serif;
+}

@@ -1,0 +1,9 @@
+endpoint: https://eu1.prisma.sh/amy-kim-86ad81/tweeter/dev
+datamodel: datamodel.graphql
+
+
+hooks:
+  post-deploy:
+    - graphql get-schema -p database
+    - graphql prepare
+    - graphql codegen

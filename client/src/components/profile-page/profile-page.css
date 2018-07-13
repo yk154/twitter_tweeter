@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css?family=Rubik");
+
+.text_profile {
+  font-family: "Rubik", sans-serif;
+  padding-top: 20px;
+  font-size: 30px;
+  /* text-align: center;
+  position: absolute; */
+}
+.yours p {
+  font-family: "Rubik", sans-serif;
+  font-size: 20px;
+  text-align: center;
+  /* width: 15%; */
+  /* margin-left: 14%; */
+  position: absolute;
+  left: 50%;
+  top: 11%;
+  /* border-bottom-color: grey; */
+  /* border-bottom-style: solid; */
+}
+.profileimg {
+  position: absolute;
+  width: 100px;
+  height: 80px;
+  top: 10%;
+  left: 5.5%;
+  transform: rotate(-20deg);
+}
+.profilepage {
+  position: relative;
+}
+
+.myFeed {
+  background: whitesmoke;
+  padding: 10px;
+  left: 23%;
+  right: 10%;
+  top: 20%;
+  position: absolute;
+}
+
+.head {
+  width: 250px;
+
+  /* position: absolute; */
+}
+
+.myname {
+  position: absolute;
+  background-color: darkgray;
+  color: white;
+  padding: 10px;
+  margin-left: 40px;
+  width: 13%;
+  top: 25%;
+  font-family: "Rubik", sans-serif;
+}
+
+.myemail {
+  position: absolute;
+  background-color: dimgray;
+  color: white;
+  padding: 10px;
+  margin-left: 40px;
+  margin-top: 15%;
+  width: 13%;
+  font-family: "Rubik", sans-serif;
+}

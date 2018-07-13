@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css?family=Comfortaa");
+
+.tweet {
+  width: 100vw;
+  background: whitesmoke;
+  height: 180vh;
+  position: relative;
+}
+
+.frame {
+  width: 60%;
+  position: absolute;
+
+  margin-left: 45px;
+  margin-top: 45px;
+  padding-right: 15px;
+  /* padding-top: 10px; */
+}
+textarea {
+  resize: none;
+  width: 80%;
+  height: 200px;
+}
+.frame button {
+  cursor: pointer;
+  font-family: "Comfortaa", cursive;
+  background: black;
+  color: #fff;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 4px;
+  border-radius: 50px;
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+.frame button:hover {
+  opacity: 0.5;
+  color: aliceblue;
+}
+.travel {
+  position: absolute;
+  width: 300px;
+  height: 370px;
+  background: #fff;
+  margin-left: 71%;
+  border-radius: 20px;
+  margin-bottom: 30px;
+  top: 6%;
+}
+.food {
+  position: absolute;
+  width: 300px;
+  height: 370px;
+  background: #fff;
+  margin-left: 71%;
+  border-radius: 20px;
+  margin-bottom: 30px;
+  top: 38%;
+}
+
+.travel img,
+.food img {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.text p,
+.food p {
+  bottom: 2px;
+  position: absolute;
+  font-family: "Comfortaa", cursive;
+  margin-left: 2%;
+  border-bottom-style: solid;
+  border-bottom-color: plum;
+}
+
+.food p {
+  border-bottom-color: darkorange;
+}

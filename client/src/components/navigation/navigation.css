@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css?family=Comfortaa");
+
+.header {
+  height: 48px;
+  font-family: "Comfortaa", cursive;
+  background: black;
+  color: #fff;
+}
+.navlink {
+  position: absolute;
+  right: 10px;
+}
+
+.user,
+.error {
+  margin-top: 8px;
+  margin-left: 63%;
+  color: #fff;
+}
+
+.logout {
+  background: black;
+  color: pink;
+  cursor: pointer;
+  border-style: none;
+  font-family: "Comfortaa", cursive;
+  margin-left: 15px;
+}
+
+.logout:hover {
+  opacity: 0.5;
+}
